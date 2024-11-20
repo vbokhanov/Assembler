@@ -1,0 +1,4 @@
+- addr1: 4
+  addr2: 342
+  command: WRITE
+  opcode: 5

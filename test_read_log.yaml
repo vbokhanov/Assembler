@@ -1,0 +1,5 @@
+- addr1: 9
+  addr2: 11
+  command: READ
+  opcode: 0
+  shift: 187
