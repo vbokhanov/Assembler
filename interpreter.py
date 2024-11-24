@@ -1,15 +1,14 @@
 import yaml
 import sys
-from dataclasses import dataclass
 
 MEMORY_SIZE = 1024
 REG_COUNT = 32
 
-@dataclass
 class BinaryBuffer:
-    binary_data: bytearray = bytearray()
-    bit_it = 0
-    
+    def __init__(self, binary_data: bytearray):
+        self.binary_data: bytearray = binary_data
+        self.bit_it = 0
+
     def read(self, bit_width):
         res = 0
         for i in range(bit_width):

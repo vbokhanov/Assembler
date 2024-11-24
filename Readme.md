@@ -7,6 +7,13 @@
 $A[i] = A[i] >> B[i]$. Конечное ожидаемое состояние массивов:
 $A = \{16, 16, 16, 16, 16\}$, $B = \{1, 2, 3, 4, 5\}$
 
+
+### Pytest
+
+```pytest test_solution.py -vvv```
+
+<img src="img/pytest.png" width="900"/>
+
 ### Запуск главного теста и результаты
 
 ```python assembler.py program.asm program.bin program_log.yaml```
